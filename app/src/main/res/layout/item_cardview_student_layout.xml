@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:id="@+id/studen_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/tv_code"
+            android:text="stuCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:fontFamily="@font/mitr"/>
+        <TextView
+            android:id="@+id/tv_fixname"
+            android:text="stuFixname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:fontFamily="@font/mitr"/>
+        <TextView
+            android:id="@+id/tv_name"
+            android:text="stuName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:fontFamily="@font/mitr"/>
+        <TextView
+            android:id="@+id/tv_surname"
+            android:text="stuSurname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:fontFamily="@font/mitr"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

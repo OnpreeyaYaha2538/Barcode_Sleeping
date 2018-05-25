@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/chela_one</item>
+        <item>@font/farsan</item>
+        <item>@font/kanit_thin</item>
+        <item>@font/mitr</item>
+        <item>@font/mitr_extralight</item>
+        <item>@font/mitr_medium</item>
+    </array>
+</resources>

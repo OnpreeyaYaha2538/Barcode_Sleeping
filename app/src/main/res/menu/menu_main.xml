@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Main Menu"
+        app:showAsAction="always"
+        android:icon="@drawable/more">
+        <menu>
+
+    <item android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="Home"
+        android:icon="@drawable/house"
+        app:showAsAction="never"/>
+    <!--<item android:id="@+id/action_check"-->
+        <!--android:title="Check"-->
+        <!--android:icon="@drawable/ic_check"-->
+        <!--app:showAsAction="never"-->
+        />
+
+    <item android:id="@+id/action_grap"
+        android:orderInCategory="100"
+        android:title="Graph"
+        android:icon="@drawable/graph"
+        app:showAsAction="never"
+        />
+        </menu>
+    </item>
+
+</menu>
